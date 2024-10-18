@@ -8,8 +8,11 @@
   "name": "physiohealth",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "process": "^0.11.10"
+  },
   "scripts": {
+    "start": "npx parcel index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
